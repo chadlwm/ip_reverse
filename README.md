@@ -24,7 +24,18 @@ Or install it yourself as:
 
     ip_reverse = IpReverse.reverse("182.48.112.2")
 
-   #{"result"=>"success", "country"=>"中国", "province"=>"北京市", "city"=>"北京市", "county"=>"海淀区", "isp"=>"", "area"=>"华北"}
+
+结果
+
+    {
+        "result"=>"success",
+        "country"=>"中国",
+        "province"=>"北京市",
+        "city"=>"北京市",
+        "county"=>"海淀区",
+        "isp"=>"",
+        "area"=>"华北"
+    }
 
     ip_reverse = IPReverse.reverse("119.178.225.92")
     ip_reverse['result'] # success or failed
@@ -38,12 +49,12 @@ Or install it yourself as:
 
 ## Accuracy &  Coverage
 |地区|覆盖度|准确度|
-| -------- | ------------------- | ---------------------|  
+| -------- | ------------------- | ---------------------|
 | 国家| 100% | 100% |
 | 省/直辖市/自治区 | 99.83% | 99.88% |
 | 市 | 93.68% | 96.35% |
 | 县 | 4.64% | 无统计数据 |
-| 运营商 | 94.1% | 无统计数据 | 
+| 运营商 | 94.1% | 无统计数据 |
 
 ## Run Test
 
@@ -51,7 +62,7 @@ Or install it yourself as:
 
 ## Contact
 
-Name 
+Name
 :  chad lwm
 
 Mail
